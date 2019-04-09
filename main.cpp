@@ -40,5 +40,5 @@ int main() {
           << (approximate_path_length < accurate_path_length * 2 + 0.00001 ?
               "CORRECT" : "NOT CORRECT") << std::endl << std::endl;
     }
-}
+  }
 }
